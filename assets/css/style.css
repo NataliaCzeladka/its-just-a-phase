@@ -10,11 +10,30 @@ html {
 
 body {
     font-family: 'Quattrocento', serif;
-    background-color: #723a3a;
+    background-color: #000;
     background-image: url(../images/des_recits_unsplash.webp);
     background-size: cover;
     background-position: bottom;
     color: #fff;
+}
+
+header {
+    background-color: #00000080;
+}
+
+#logo {
+    padding: 15px;
+    color: #d39b5b;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 300%;
+}
+
+#menu {
+    letter-spacing: 1px;
+    padding: 15px;
 }
 
 ul {
@@ -22,6 +41,26 @@ ul {
     display: inline-flex;
 }
 
+li {
+    padding: 15px;
+    font-size: 170%;
+    color: #d39b5b
+}
+
 a {
     text-decoration: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  #menu a:hover {
+    border-bottom: 1px solid #777777;
+  }
+  
+
+#main-body {
+    margin: 50px
 }
