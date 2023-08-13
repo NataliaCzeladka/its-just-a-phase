@@ -49,6 +49,7 @@ li {
 
 a {
     text-decoration: none;
+    color: #d39b5b;
 }
 
 #menu a {
@@ -64,5 +65,26 @@ a {
 }
 
 #main-body {
-    margin: 50px
+    margin: 50px;
+    height:650px;
+}
+
+footer {
+    background: #7e90a140;
+    font-size: 150%;
+    color: #d39b5b;
+    letter-spacing: 1px;
+}
+
+footer a {
+    color: #a8a8a8;
+    padding: 5px;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer .row {
+    padding: 15px;
 }
