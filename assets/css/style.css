@@ -66,8 +66,40 @@ a {
 }
 
 #main-body {
-    margin: 50px;
-    height:650px;
+    margin: 80px;
+}
+
+.row {
+    display: flex;
+}
+
+.container {
+    flex: 1;
+}
+
+.moon-cycle {
+    background-color: #00000080;
+    padding: 10px 30px;
+    margin: 30px 30px 10px 30px;
+}
+
+.moon-cycle h2 {
+    padding: 10px 0;
+    color: #d39b5b;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.moon-cycle p {
+    padding-top: 10px 0;
+    font-size: 120%;
+}
+
+.moon-cycle-img {
+    margin-top: 40px;
+    width: 100%;
+    align-content: center;
 }
 
 footer {
