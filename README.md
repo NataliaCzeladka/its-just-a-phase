@@ -33,3 +33,13 @@
     - [Content](#content)
     - [Media](#media)
     - [Acknowledgements](#acknowledgements)
+
+## Design
+
+### Colour Scheme
+
+The colour scheme of "It's just a phase!" Moon Cycle Tracker was generated from its background picture, which captures the beauty of a night, starry sky. Because it plays a crucial role in setting the tone and atmosphere of the app, I wanted to keep it simple and elegant by introducing the classic combination of black and white, alongside a few subtle shades of blue and grey to emphasize a connection to the astronomical theme. The strongest colour accent of the website is a mid toned, golden ochre shade called buff, which refers to the colour of natural, undyed leather. I believe it provides a nice contrast to the darker shades, adding a touch of warmth and balance to the overall colour scheme.
+
+I used [Coolors](https://coolors.co/777777-d39b5b-ffffff-606e97-2e3451-04030e) to generate my colour palette.
+
+![Colour Palette](docs/colour_palette.png)
