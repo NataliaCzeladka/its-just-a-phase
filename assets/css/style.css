@@ -10,10 +10,11 @@ html {
 
 body {
     font-family: 'Quattrocento', serif;
-    background-color: #000;
+    background-color: #04030e;
     background-image: url(../images/des_recits_unsplash.webp);
     background-size: cover;
     background-position: bottom;
+    background-repeat: no-repeat;
     color: #fff;
 }
 
