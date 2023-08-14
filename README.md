@@ -18,7 +18,7 @@
     - [Imagery](#imagery)
     - [Wireframes](#wireframes)
     - [Features](#features)
-      - [Exisiting Features](#exisiting-features)
+      - [Existing Features](#exisiting-features)
       - [Future Features](#future-features)
   - [Technologies Used](#technologies-used)
     - [Languages Used](#languages-used)
@@ -38,8 +38,20 @@
 
 ### Colour Scheme
 
-The colour scheme of "It's just a phase!" Moon Cycle Tracker was generated from its background picture, which captures the beauty of a night, starry sky. Because it plays a crucial role in setting the tone and atmosphere of the app, I wanted to keep it simple and elegant by introducing the classic combination of black and white, alongside a few subtle shades of blue and grey to emphasize a connection to the astronomical theme. The strongest colour accent of the website is a mid toned, golden ochre shade called buff, which refers to the colour of natural, undyed leather. I believe it provides a nice contrast to the darker shades, adding a touch of warmth and balance to the overall colour scheme.
+The colour scheme of "It's just a phase!" Moon Cycle Tracker was generated from its background picture, which captures the beauty of a night, starry sky. Because it plays a crucial role in setting the tone and atmosphere of the app, I wanted to keep it simple and elegant by introducing the classic combination of black and white, alongside a few subtle shades of blue and grey to emphasize a connection to the astronomical theme. The strongest colour accent of the website is a mid-toned, golden ochre shade called buff, which refers to the colour of natural, undyed leather. I believe it provides a nice contrast to the darker shades, adding a touch of warmth and balance to the overall colour scheme.
 
 I used [Coolors](https://coolors.co/777777-d39b5b-ffffff-606e97-2e3451-04030e) to generate my colour palette.
 
 ![Colour Palette](docs/colour_palette.png)
+
+### Typography
+
+The combination of well-matching Playfair Display and Quattrocento fonts was suggested by one of the font pairing services called [fontpair.co](https://www.fontpair.co/). These fonts create a great contrast in a harmonising way. They enhance the visual hierarchy of the website and highlight essential information.
+
+![Font Pairing](docs/fonts.png)
+
+- The [Playfair Display](https://fonts.google.com/specimen/Playfair+Display?query=playfair) font is well-suited for titling and headlines, which makes it a perfect choice for the website's main logo and sections' headings. It's eye-catching, sophisticated and it easily draws attention
+
+- The [Quattrocento](https://fonts.google.com/specimen/Quattrocento?query=quattro) font is the main font used throughout the whole website with Serif as the fallback font. It's a classic and elegant typeface that ensures easy readability. It was mainly used to provide text content to the paragraphs.
+
+[Font Awesome](https://fontawesome.com/) icons were used for social media links in the footer.
