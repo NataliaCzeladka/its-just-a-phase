@@ -77,6 +77,10 @@ a {
     flex: 1;
 }
 
+.faq {
+    padding: 0 20px;
+}
+
 .moon-cycle {
     background-color: #00000080;
     padding: 10px 30px;
@@ -99,7 +103,11 @@ a {
 .moon-cycle-img {
     margin-top: 40px;
     width: 100%;
-    align-content: center;
+}
+
+.perspectives-img {
+    margin: 10px 0;
+    width: 100%;
 }
 
 footer {
