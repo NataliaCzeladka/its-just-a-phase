@@ -1,3 +1,4 @@
+// Customised date method
 const date = new Date();
 
 let day = date.getDate();
@@ -17,3 +18,35 @@ let year = date.getFullYear();
 
 let fullDate = `${weekday}, ${ordinal} ${fullMonth} ${year}`;
 document.getElementById("date").innerHTML = fullDate;
+
+
+// External API call
+// https://rapidapi.com/MoonAPIcom/api/moon-phase/
+
+function getData(cb) {
+    
+    var xhr = new XMLHttpRequest();
+    xhr.withCredentials = true;
+
+    xhr.open('GET', 'https://moon-phase.p.rapidapi.com/advanced');
+    xhr.setRequestHeader('X-RapidAPI-Key', 'e1748088ddmshf67ba4347bdd975p1a8de2jsn0a545e552fd2');
+    xhr.setRequestHeader('X-RapidAPI-Host', 'moon-phase.p.rapidapi.com');
+
+    xhr.send();
+
+    xhr.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+
+            // Parsing the string data into JSON format
+            cb(JSON.parse(this.responseText));
+        }
+    };
+}
+
+function printDataToConsole(data) {
+    console.log(data);
+}
+
+getData(printDataToConsole);
+
+
