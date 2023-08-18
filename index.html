@@ -45,28 +45,32 @@
     </header>
 
     <!-- Main Body -->
-    <section class="row">
+    
+    <h1 class="hello">Welcome to our Moon Phase Tracker</h1>
 
-        <h1>Welcome to our Moon Phase Tracker</h1>
-        
-        <div class="container">
+    <section class="line">
+
+        <div class="outer moon-cycle">
+            
             <h2><i class="fa-solid fa-calendar-days"></i> Current Date:</h2>
-            <h3 id="date"></h3>
-            <div>
-                <h2>Current Moon Phase:</h2>
-                <h3 id="data"></h3>
-                <p id="moon-picture"></p>
+            <h4 id="date"></h4>
+            <h2><i class="fa-regular fa-moon"></i> Current Moon Phase:</h2>
+            <h4 id="data"></h4>
+                <div class="dark">
+                    <p id="moon-picture"></p>
+                </div>
             </div>
         </div>
 
-        <div class="container">
-            <div>
-                Current Moon Phase Description
-            </div>  
+        <div class="outer moon-cycle">
+            <h2><i class="fa-solid fa-pen-to-square"></i> Moon Phase Description</h2>
+            <p id="moon-text"></p>
+            <h2>Advanced Moon Data</h2>
+        </div>  
 
-            <div>
-                Moon Phase Calendar
-            </div>
+        <div class="outer moon-cycle">
+            <h2>Moon Phase Calendar</h2>
+            <h4 id="calendar"></h4>
         </div>
 
     </section>
