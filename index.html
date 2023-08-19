@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,12 +11,15 @@
     <meta name="keywords" content="moon, moon phases, moon cycle, lunar cycle, lunar calendar">
     <meta name="author"
         content="Website designed and maintained by Natalia Czeladka, Web App Developement Student at Code Institute.">
-    
+
     <!-- Bootstrap CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!-- Google Fonts and Font Awesome CDNs -->
     <script src="https://kit.fontawesome.com/b3a2ce9e3e.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Quattrocento:wght@400;700&display=swap"
+        rel="stylesheet">
 
     <link rel="icon" href="assets/images/moon_stars_icon.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
@@ -29,7 +33,8 @@
         <div class="row">
             <div class="col-12 col-lg-6 text-lg-start">
                 <a href="index.html">
-                    <h2 id="logo"><img src="assets/images/moon_stars_icon.png" alt="logo" height="80">&nbsp;&nbsp;It's just a phase!</h2> 
+                    <h1 id="logo"><img src="assets/images/moon_stars_icon.png" alt="logo" height="80">&nbsp;&nbsp;It's
+                        just a phase!</h1>
                 </a>
             </div>
             <div class="col-12 col-lg-6 text-lg-end">
@@ -45,35 +50,34 @@
     </header>
 
     <!-- Main Body -->
-    
-    <h1 class="hello">Welcome to our Moon Phase Tracker</h1>
+    <main>
+    <h2 class="hello">Welcome to our Moon Phase Tracker</h2>
 
-    <section class="line">
+        <section class="line">
 
-        <div class="outer moon-cycle">
-            
-            <h2><i class="fa-solid fa-calendar-days"></i> Current Date:</h2>
-            <h4 id="date"></h4>
-            <h2><i class="fa-regular fa-moon"></i> Current Moon Phase:</h2>
-            <h4 id="data"></h4>
+            <div class="outer moon-cycle">
+
+                <h2><i class="fa-solid fa-calendar-days"></i> Current Date:</h2>
+                <h4 id="date"></h4>
+                <h2><i class="fa-regular fa-moon"></i> Current Moon Phase:</h2>
+                <h4 id="data"></h4>
                 <div class="dark">
                     <p id="moon-picture"></p>
                 </div>
             </div>
-        </div>
 
-        <div class="outer moon-cycle">
-            <h2><i class="fa-solid fa-pen-to-square"></i> Moon Phase Description</h2>
-            <p id="moon-text"></p>
-            <h2>Advanced Moon Data</h2>
-        </div>  
+            <div class="outer moon-cycle">
+                <h2><i class="fa-solid fa-pen-to-square"></i> Moon Phase Description</h2>
+                <p id="moon-text"></p>
+                <h2>Advanced Moon Data</h2>
+            </div>
 
-        <div class="outer moon-cycle">
-            <h2>Moon Phase Calendar</h2>
-            <h4 id="calendar"></h4>
-        </div>
-
-    </section>
+            <div class="outer moon-cycle">
+                <h2>Moon Phase Calendar</h2>
+                <h4 id="calendar"></h4>
+            </div>
+        </section>
+    </main>
 
     <!-- Page Footer -->
     <footer class="container-fluid">
@@ -101,6 +105,9 @@
 
     <!-- Script links for Bootstrap and custom JavaScript code -->
     <script src="assets/js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
