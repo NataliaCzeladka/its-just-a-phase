@@ -16,7 +16,18 @@ body {
     background-position: bottom;
     background-repeat: no-repeat;
     color: #fff;
+
+/* Credit: code for sticky footer taken from https://materializecss.com/footer.html 
+START */
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
+
+main {
+flex: 1 0 auto;
+}
+/* FINISH */
 
 header {
     background-color: #00000080;
