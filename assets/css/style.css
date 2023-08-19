@@ -95,13 +95,56 @@ a {
     text-align: center;
     display: block;
     padding: 30px 0 0 0;
-    font-size: 280%;
+    font-size: 300%;
 }
 
-.dark {
+.main-page {
+    margin: 30px 100px;
+    background-color:#00000080;
+}
+
+.left {
+    text-align: left;
+    padding: 30px;
+}
+
+.right {
+    text-align: right;
+    padding: 30px;
+}
+
+.left h3 {
+    color: #d39b5b;
+}
+
+.right h3 {
+    color:#d39b5b;
+}
+
+.fact-line {
+    margin-bottom: 20px;
+}
+
+.middle {
     padding: 20px;
     display: block;
-    text-align: center;
+}
+
+.middle h2 {
+    font-size: 250%;
+    color:#d39b5b;
+}
+.middle h4 {
+    font-size: 200%;
+    margin-bottom: 40px;
+}
+
+.int-link:hover {
+    color: #777777;
+}
+
+.right a {
+    color:#fff;
 }
 
 .faq {

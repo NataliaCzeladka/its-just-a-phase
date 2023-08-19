@@ -41,13 +41,20 @@ const fetchMoonPhaseData = async () => {
 
         let data = await response.json();
         displayMoonData(data.moon.phase_name);
+        displayIllumination(data.moon.illumination);
+        displayMoonDistance(data.moon.moon_distance);
+        displayMoonAge(data.moon.age_days);
+        displayCyclePercentage(data.moon.lunar_cycle);
+        displayZodiacSign(data.moon.zodiac_sign);
+        displayNextFullMoon(data.moon_phases.full_moon.next.days_ahead);
+
     } catch (error) {
         console.error("Error fetching data:", error);
-        displayMoonData("Error fetching moon phase data");
+        displayMoonData, displayIllumination, displayMoonDistance, displayMoonAge, displayCyclePercentage, displayZodiacSign, displayNextFullMoon ("Error fetching moon phase data");
     }
 };
 
-const displayMoonData = (moon_phase) => {
+let displayMoonData = (moon_phase) => {
     const phaseTextElement = document.getElementById("data");
     phaseTextElement.innerText = moon_phase;
 
@@ -59,7 +66,7 @@ const displayMoonData = (moon_phase) => {
         document.getElementById("moon-text").innerHTML = "The New Moon is the first lunar phase. It occurs when the Moon is positioned between the Earth and the Sun. The three objects are in approximate alignment. The entire illuminated part of the Moon is on the back side of the Moon, the half that we cannot see. At this phase, the lunar disk is not visible to the naked eye.";
         break;
     case "Waxing Crescent":
-        document.getElementById("moon-picture").innerHTML = "<img src='assets/images/waxing_crescent.webp' height='300'>";
+        document.getElementById("moon-picture").innerHTML = "<img src='assets/images/waxing_crescent.webp' height='450vw'>";
         document.getElementById("moon-text").innerHTML = "After the New Moon, the sunlit portion is increasing, but less than half, so it is a Waxing Crescent. 'Waxing' essentially means 'growing' or expanding in illumination, while 'crescent' refers to the phases where the moon is less than half illuminated.";
         break;
     case "First Quarter":
@@ -91,5 +98,32 @@ const displayMoonData = (moon_phase) => {
 fetchMoonPhaseData();
 
 
+let displayIllumination = (illumination) => {
+    const illuminationTextElement = document.getElementById("illumination");
+    illuminationTextElement.innerText = `The Moon is ${illumination} visible.`;
+}
 
+let displayMoonDistance = (moon_distance) => {
+    const moonDistanceTextElement = document.getElementById("moon-distance");
+    moonDistanceTextElement.innerText = `${Math.round(moon_distance)} km`;
+}
 
+let displayMoonAge = (age_days) => {
+    const moonAgeTextElement = document.getElementById("moon-age");
+    moonAgeTextElement.innerText = age_days;
+}
+
+let displayCyclePercentage = (lunar_cycle) => {
+    const cyclePercentageTextElement = document.getElementById("cycle-percentage");
+    cyclePercentageTextElement.innerText = lunar_cycle;
+}
+
+let displayZodiacSign = (zodiac_sign) => {
+    const zodiacSignTextElement = document.getElementById("zodiac-sign");
+    zodiacSignTextElement.innerText = zodiac_sign;
+}
+
+let displayNextFullMoon = (days_ahead) => {
+    const nextFullMoonTextElement = document.getElementById("next-full-moon");
+    nextFullMoonTextElement.innerText = days_ahead;
+}

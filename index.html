@@ -51,31 +51,55 @@
 
     <!-- Main Body -->
     <main>
-    <h2 class="hello">Welcome to our Moon Phase Tracker</h2>
+    <h2 class="hello">Your Daily Moon Phase Tracker</h2>
 
-        <section class="line">
-
-            <div class="outer moon-cycle">
-
-                <h2><i class="fa-solid fa-calendar-days"></i> Current Date:</h2>
-                <h4 id="date"></h4>
-                <h2><i class="fa-regular fa-moon"></i> Current Moon Phase:</h2>
-                <h4 id="data"></h4>
-                <div class="dark">
-                    <p id="moon-picture"></p>
+        <section class="container-fluid">
+        <div class="row main-page">
+            <div class="left col-12 col-lg-4">
+                <div class="fact-line">
+                    <h3><i class="fa-solid fa-calendar-days"></i> Current Date:</h3>
+                    <h4 id="date"></h4>
+                </div>
+                <div class="fact-line">
+                    <h3><i class="fa-solid fa-pen-to-square"></i> Moon Phase Description</h3>
+                    <h5 id="moon-text"></h5>
+                </div>
+                <div class="fact-line">
+                    <h3><i class="fa-solid fa-ruler-vertical"></i> Approximate distance from Earth:</h3>
+                    <h4 id="moon-distance"></h4>
+                </div>
+                <div class="fact-line">
+                    <h3><i class="fa-solid fa-lightbulb"></i> Illumination:</h3>
+                    <h4 id="illumination"></h4>
                 </div>
             </div>
 
-            <div class="outer moon-cycle">
-                <h2><i class="fa-solid fa-pen-to-square"></i> Moon Phase Description</h2>
-                <p id="moon-text"></p>
-                <h2>Advanced Moon Data</h2>
+            <div class="middle col-12 col-lg-4 text-center">
+                    <h2><i class="fa-regular fa-moon"></i> Current Moon Phase:</h2>
+                    <h4 id="data"></h4>
+                <div id="moon-picture"></div>
             </div>
 
-            <div class="outer moon-cycle">
-                <h2>Moon Phase Calendar</h2>
-                <h4 id="calendar"></h4>
+            <div class="right col-12 col-lg-4">
+                <div class="fact-line">
+                    <h3><i class="fa-regular fa-star"></i> Zodiac Sign:</h3>
+                    <h4 id="zodiac-sign"></h4>
+                </div>
+                <div class="fact-line">
+                    <h3><i class="fa-regular fa-circle"></i> Number of days till the next Full Moon:</h3>
+                    <h4 id="next-full-moon"></h4>
+                </div>
+                <div class="fact-line">
+                    <h3><i class="fa-solid fa-percent"></i> Percentage of the complete Lunar Cycle the Moon is at now:</h3>
+                    <h4 id="cycle-percentage"></h4>
+                </div>
+                <div class="fact-line">
+                    <h3><i class="fa-solid fa-calendar-days"></i> Age of the Moon (in days):</h3>
+                    <h4 id="moon-age"></h4>
+                    <h5>Note that the Moon is 4.53 billion years old. The above parameter is the age of the Moon since the last New Moon. The complete Moon Cycle is approximately 29.5 days long (go to <a href="faq.html" class="int-link">FAQ</a> section for more details).</h5>
+                </div>
             </div>
+        </div>
         </section>
     </main>
 
