@@ -44,8 +44,7 @@ header {
 }
 
 #menu {
-    letter-spacing: 1px;
-    padding: 15px;
+    padding: 15px 0;
 }
 
 ul {
@@ -54,7 +53,7 @@ ul {
 }
 
 li {
-    padding: 15px;
+    padding: 20px;
     font-size: 170%;
     color: #d39b5b
 }
@@ -105,12 +104,12 @@ a {
 
 .left {
     text-align: left;
-    padding: 40px 30px;
+    padding: 30px;
 }
 
 .right {
     text-align: right;
-    padding: 40px 30px;
+    padding: 30px;
 }
 
 .left h3 {
@@ -138,9 +137,9 @@ a {
     font-size: 250%;
     color:#d39b5b;
 }
-.middle h4 {
+.middle h5 {
     font-size: 200%;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .int-link:hover {
@@ -205,5 +204,5 @@ footer .row {
 }
 
 #moon-picture img {
-    height: 25vw;
+    height: 23vw;
 }
