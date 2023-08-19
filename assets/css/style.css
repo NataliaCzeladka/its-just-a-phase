@@ -105,12 +105,12 @@ a {
 
 .left {
     text-align: left;
-    padding: 30px;
+    padding: 40px 30px;
 }
 
 .right {
     text-align: right;
-    padding: 30px;
+    padding: 40px 30px;
 }
 
 .left h3 {
@@ -122,7 +122,11 @@ a {
 }
 
 .fact-line {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+.fact-line h5 {
+    line-height: 150%;
 }
 
 .middle {
@@ -198,4 +202,8 @@ footer a:hover {
 
 footer .row {
     padding: 15px;
+}
+
+#moon-picture img {
+    height: 25vw;
 }
