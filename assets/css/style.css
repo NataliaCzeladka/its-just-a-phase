@@ -97,6 +97,14 @@ a {
     font-size: 300%;
 }
 
+.instruction {
+    text-shadow: #000 4px 4px 4px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px;
+    -webkit-font-smoothing: antialiased;
+    padding: 10px 0;
+    color:#d39b5b;
+    font-size: 220%;
+}
+
 .main-page {
     margin: 30px 100px;
     background-color:#00000080;
@@ -205,4 +213,29 @@ footer .row {
 
 #moon-picture img {
     height: 23vw;
+}
+
+.icons {
+    display: block;
+    text-align: center;
+    margin: 40px 10px;
+}
+
+.icons img {
+    height: 10vw;
+    width: 10vw;
+    padding: 20px;
+}
+
+.notes {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 40px 10px;
+}
+
+.notes h3 {
+    flex:1;
+    font-size: 220%;
+    padding: 20px;
 }
