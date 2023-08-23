@@ -93,7 +93,7 @@ a {
     -webkit-font-smoothing: antialiased;
     text-align: center;
     display: block;
-    padding: 30px 0 0 0;
+    padding: 35px 0 0 0;
     font-size: 300%;
 }
 
@@ -112,12 +112,12 @@ a {
 
 .left {
     text-align: left;
-    padding: 30px;
+    padding: 40px;
 }
 
 .right {
     text-align: right;
-    padding: 30px;
+    padding: 40px;
 }
 
 .left h3 {
@@ -137,7 +137,7 @@ a {
 }
 
 .middle {
-    padding: 20px;
+    padding: 30px 20px;
     display: block;
 }
 
@@ -238,4 +238,52 @@ footer .row {
     flex:1;
     font-size: 220%;
     padding: 20px;
+}
+
+.start {
+    font-size: 200%;
+    font-weight: 700;
+    font-family: 'Quattrocento', serif;
+    color: #d39b5b;
+    border: 2px solid #d39b5b;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 5px 50px;
+    text-align: center;
+}
+
+.pick-a-date {
+    margin: 40px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pick-a-date h2 {
+    font-size: 250%;
+    color: #d39b5b;
+    margin-bottom: 10px;
+}
+
+.pick-a-date div {
+    padding: 20px;
+}
+
+.calendar {
+    font-family: 'Quattrocento', serif;
+    font-size: 130%;
+}
+
+.calendar th {
+    padding: 5px;
+    color: #5065a3 ;
+    border: 1px solid #777777;
+    text-align: center;
+}
+
+.calendar td {
+    color: #5065a3 ;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #777777;
 }

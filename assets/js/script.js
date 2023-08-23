@@ -24,10 +24,11 @@ document.getElementById("date").innerHTML = fullDate;
 // https://rapidapi.com/MoonAPIcom/api/moon-phase/
 
 let data;
+let baseURL = "https://moon-phase.p.rapidapi.com/advanced";
 
 const fetchMoonPhaseData = async () => {
     try {
-        const response = await fetch("https://moon-phase.p.rapidapi.com/advanced", {
+        const response = await fetch(baseURL, {
             "method": "GET",
             "headers": {
                 "x-rapidapi-host": "moon-phase.p.rapidapi.com",
@@ -54,6 +55,7 @@ const fetchMoonPhaseData = async () => {
     }
 };
 
+// Display current Moon Phase
 let displayMoonData = (moon_phase) => {
     const phaseTextElement = document.getElementById("data");
     phaseTextElement.innerText = moon_phase;
@@ -133,3 +135,48 @@ let displayNextFullMoon = (days_ahead) => {
     const nextFullMoonTextElement = document.getElementById("next-full-moon");
     nextFullMoonTextElement.innerText = days_ahead;
 }
+
+
+// Display Moon Phase Calendar
+const xhr = new XMLHttpRequest();
+xhr.withCredentials = true;
+
+xhr.addEventListener('readystatechange', function () {
+	if (this.readyState === this.DONE) {
+		console.log(this.response);
+
+// Markdown content
+let markdownResponse = this.response;
+
+// Convert Markdown to HTML using marked library (CDN link provided in the header)
+const htmlContent = marked(markdownResponse);
+console.log(htmlContent);
+
+// Update the DOM element with the converted HTML
+const resultContainer = document.getElementById("calendar");
+resultContainer.innerHTML = htmlContent;
+
+// Deleting non-existing days from the calendar
+// According to the API all months are 31-day-long.
+let removeData = (htmlContent) => {
+    let rows = document.getElementByTagName("tbody").rows[3, 5, 8, 10];
+    rows.deleteCell(31);
+    let february = document.getElementByTagName("table").rows[2];
+    february.deleteCell(29, 30, 31);
+};
+
+	};
+});
+
+xhr.open('GET', 'https://moon-phase.p.rapidapi.com/calendar');
+xhr.setRequestHeader('X-RapidAPI-Key', 'e1748088ddmshf67ba4347bdd975p1a8de2jsn0a545e552fd2');
+xhr.setRequestHeader('X-RapidAPI-Host', 'moon-phase.p.rapidapi.com');
+
+xhr.send(data);
+
+
+
+
+
+
+
