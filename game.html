@@ -20,6 +20,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Quattrocento:wght@400;700&display=swap"
         rel="stylesheet">
+    <!-- Marked library CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/marked@2.0.5/marked.min.js"></script>
 
     <link rel="icon" href="assets/images/moon_stars_icon.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
@@ -29,25 +31,34 @@
 <body>
 
     <!-- Page Header -->
-    <header class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-lg-4 text-lg-start">
-                <a href="index.html">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="index.html">
                     <h1 id="logo"><img src="assets/images/moon_stars_icon.png" alt="logo" height="80">&nbsp;&nbsp;It's
-                        just a phase!</h1>
+                    just a phase!</h1>
                 </a>
-            </div>
-            <div class="col-12 col-lg-8 text-lg-end">
-                <nav>
-                    <ul id="menu">
-                        <li><a href="index.html">Current Moon Phase</a></li>
-                        <li><a href="comment.html">Moon Cycle Explained</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a class="active" href="game.html">Check Your Knowledge</a></li>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav" id="menu">
+                        <li class="navbar-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Current Moon Phase</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="comment.html">Moon Cycle Explained</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="game.html">Check Your Knowledge</a>
+                        </li>
                     </ul>
-                </nav>
-            </div>
-        </div>
+                </div>
+        </nav>
     </header>
 
     <!-- Main Body -->
@@ -83,6 +94,10 @@
             <h3>Waxing Gibbous</h3>
         </div>
     </section>
+
+    <div class="text-center">
+    <button class="start">Play</button>
+    </div>
 
     </main>
 

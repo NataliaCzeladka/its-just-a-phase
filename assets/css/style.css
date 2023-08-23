@@ -34,26 +34,22 @@ header {
 }
 
 #logo {
-    padding: 15px;
+    margin-left: 20px;
+    padding: 10px;
     color: #d39b5b;
     font-family: 'Playfair Display', serif;
     font-style: italic;
     letter-spacing: 2px;
     font-weight: 600;
-    font-size: 300%;
-}
-
-#menu {
-    padding: 15px 0;
+    font-size: 200%;
 }
 
 ul {
     list-style-type: none;
-    display: inline-flex;
 }
 
 li {
-    padding: 20px;
+    padding: 0 15px;
     font-size: 170%;
     color: #d39b5b
 }
@@ -61,6 +57,12 @@ li {
 a {
     text-decoration: none;
     color: #d39b5b;
+    }
+
+.navbar-collapse {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 20px;
 }
 
 #menu a {
