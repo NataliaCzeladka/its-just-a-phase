@@ -51,7 +51,13 @@ const fetchMoonPhaseData = async () => {
 
     } catch (error) {
         console.error("Error fetching data:", error);
-        displayMoonData, displayIllumination, displayMoonDistance, displayMoonAge, displayCyclePercentage, displayZodiacSign, displayNextFullMoon ("Error fetching moon phase data");
+        displayIllumination,
+        displayMoonDistance,
+        displayMoonAge,
+        displayCyclePercentage,
+        displayZodiacSign,
+        displayNextFullMoon,
+        displayMoonData ("Error fetching Moon Phase data"); 
     }
 };
 
@@ -138,6 +144,7 @@ let displayNextFullMoon = (days_ahead) => {
 
 
 // Display Moon Phase Calendar
+const fetchMoonDataTable = async () => {
 const xhr = new XMLHttpRequest();
 xhr.withCredentials = true;
 
@@ -148,7 +155,7 @@ xhr.addEventListener('readystatechange', function () {
 // Markdown content
 let markdownResponse = this.response;
 
-// Convert Markdown to HTML using marked library (CDN link provided in the header)
+// Convert Markdown to HTML using marked library (CDN link provided in the header of index.html file)
 const htmlContent = marked(markdownResponse);
 console.log(htmlContent);
 
@@ -156,16 +163,31 @@ console.log(htmlContent);
 const resultContainer = document.getElementById("calendar");
 resultContainer.innerHTML = htmlContent;
 
-// Deleting non-existing days from the calendar
-// According to the API all months are 31-day-long.
-let removeData = (htmlContent) => {
-    let rows = document.getElementByTagName("tbody").rows[3, 5, 8, 10];
-    rows.deleteCell(31);
-    let february = document.getElementByTagName("table").rows[2];
-    february.deleteCell(29, 30, 31);
-};
 
-	};
+// // Deleting non-existing days from the calendar
+// // According to the API all months are 31-day-long (except December, which is a mistake)
+
+// Get each <tr> element
+    let tableRow = document.getElementsByTagName("tr");
+
+// Delete Moon Phases from 31st cells of the rows: 4 (April), 6 (June), 9 (September), 11(November)
+    for(let i = 0; i < tableRow.length; i++) {
+    if(i === 4 || i === 6 || i === 9 || i === 11) {
+        tableRow[i].cells[31].innerHTML = "-";
+
+// Delete cells 29, 30, 31 from the 2nd row (February)
+    } if (i === 2) {
+        tableRow[i].cells[29].innerHTML = "-";
+        tableRow[i].cells[30].innerHTML = "-";
+        tableRow[i].cells[31].innerHTML = "-";
+        
+// Occupy the last cell of the 12th row (December) 
+    } if (i === 12) {  
+        console.log(tableRow[i].cells[31].innerHTML);
+        tableRow[i].cells[31].innerHTML = tableRow[i].cells[1].innerHTML;
+        };
+    };
+};
 });
 
 xhr.open('GET', 'https://moon-phase.p.rapidapi.com/calendar');
@@ -173,10 +195,6 @@ xhr.setRequestHeader('X-RapidAPI-Key', 'e1748088ddmshf67ba4347bdd975p1a8de2jsn0a
 xhr.setRequestHeader('X-RapidAPI-Host', 'moon-phase.p.rapidapi.com');
 
 xhr.send(data);
+}
 
-
-
-
-
-
-
+fetchMoonDataTable();
