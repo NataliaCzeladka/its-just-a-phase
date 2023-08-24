@@ -29,13 +29,16 @@ flex: 1 0 auto;
 }
 /* FINISH */
 
+/* Header */
+
 header {
     background-color: #00000080;
 }
 
-#logo {
+/* Logo */
+
+.logo {
     margin-left: 20px;
-    padding: 10px;
     color: #d39b5b;
     font-family: 'Playfair Display', serif;
     font-style: italic;
@@ -43,6 +46,8 @@ header {
     font-weight: 600;
     font-size: 200%;
 }
+
+/* Navbar */
 
 ul {
     list-style-type: none;
@@ -77,6 +82,10 @@ a {
     box-shadow: none;
 }
 
+#menu {
+    line-height: 90%;
+}
+
 #menu a {
     color: inherit;
 }
@@ -89,17 +98,7 @@ a {
     border-bottom: 1px solid #777777;
 }
 
-#main-body {
-    margin: 80px;
-}
-
-.line {
-    display: flex;
-}
-
-.outer {
-    flex: 1;
-}
+/* index.html */
 
 .hello {
     letter-spacing: 2px;
@@ -112,36 +111,9 @@ a {
     font-size: 300%;
 }
 
-.intro {
-    text-shadow: #000 4px 4px 4px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px;
-    -webkit-font-smoothing: antialiased;
-    padding: 10px 0;
-    margin: 0 150px;
-    color:#d39b5b;
-    font-size: 220%;
-}
-
 .main-page {
     margin: 30px 100px;
     background-color:#00000080;
-}
-
-.left {
-    text-align: left;
-    padding: 40px;
-}
-
-.right {
-    text-align: right;
-    padding: 40px;
-}
-
-.left h3 {
-    color: #d39b5b;
-}
-
-.right h3 {
-    color:#d39b5b;
 }
 
 .fact-line {
@@ -150,6 +122,32 @@ a {
 
 .fact-line h5 {
     line-height: 150%;
+}
+
+.left {
+    text-align: left;
+    padding: 40px;
+}
+
+.left h3 {
+    color: #d39b5b;
+}
+
+.right {
+    text-align: right;
+    padding: 40px;
+}
+
+.right h3 {
+    color:#d39b5b;
+}
+
+.right a {
+    color:#fff;
+}
+
+.int-link:hover {
+    color: #777777;
 }
 
 .middle {
@@ -161,103 +159,14 @@ a {
     font-size: 250%;
     color:#d39b5b;
 }
+
 .middle h5 {
     font-size: 200%;
     margin-bottom: 50px;
 }
 
-.int-link:hover {
-    color: #777777;
-}
-
-.right a {
-    color:#fff;
-}
-
-.faq {
-    padding: 0 20px;
-}
-
-.moon-cycle {
-    background-color: #00000080;
-    padding: 10px 30px;
-    margin: 30px 30px 10px 30px;
-}
-
-.moon-cycle h2 {
-    padding: 10px 0;
-    color: #d39b5b;
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    letter-spacing: 2px;
-}
-
-.moon-cycle p {
-    padding-top: 10px 0;
-    font-size: 120%;
-}
-
-.moon-cycle-img {
-    margin-top: 40px;
-    width: 100%;
-}
-
-.perspectives-img {
-    margin: 10px 0;
-    width: 100%;
-}
-
-footer {
-    background: #7e90a140;
-    font-size: 150%;
-    color: #d39b5b;
-    letter-spacing: 1px;
-}
-
-footer a {
-    color: #a8a8a8;
-    padding: 5px;
-}
-
-footer a:hover {
-    color: #fff;
-}
-
-footer .row {
-    padding: 15px;
-}
-
-#moon-picture img {
+.moon-picture img {
     height: 23vw;
-}
-
-.icons {
-    display: block;
-    text-align: center;
-    margin: 40px 10px;
-}
-
-.icons img {
-    height: 12vw;
-    width: 12vw;
-    padding: 20px;
-}
-
-.start {
-    font-size: 200%;
-    font-weight: 700;
-    font-family: 'Quattrocento', serif;
-    color: #d39b5b;
-    border: 2px solid #d39b5b;
-    background-color: transparent;
-    border-radius: 10px;
-    padding: 5px 50px;
-    margin-bottom: 60px;
-    text-align: center;
-}
-
-.start:hover {
-    color:#fff;
 }
 
 .pick-a-date {
@@ -296,11 +205,142 @@ footer .row {
     border: 1px solid #777777;
 }
 
-.gallery {
+/* comment.html */
+
+.line {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
+
+.outer {
+    flex: 1;
+}
+
+.moon-cycle {
+    background-color: #00000080;
+    padding: 10px 30px;
+    margin: 30px 30px 10px 30px;
+}
+
+.moon-cycle h2 {
+    padding: 10px 0;
+    color: #d39b5b;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.moon-cycle p {
+    padding-top: 10px 0;
+    font-size: 120%;
+}
+
+.moon-cycle-img {
+    margin-top: 40px;
+    width: 100%;
+}
+
+/* faq.html */
+
+.faq {
+    padding: 0 20px;
+}
+
+.perspectives-img {
+    margin: 10px 0;
+    width: 100%;
+}
+
+/* game.html */
+
+.intro {
+    /* Credit: code for outline effect taken from stackoverflow.com and edited slightly to fit the project's needs */
+    text-shadow: #000 4px 4px 4px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px;
+    -webkit-font-smoothing: antialiased;
+    padding: 10px 0;
+    margin: 0 150px;
+    color:#d39b5b;
+    font-size: 220%;
+}
+
+.wrapper {
+        /* height: 50vh; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+.slider {
+    margin-top: 50px;
+    width: 100%;
+    max-width: 600px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    position: absolute;
+    transition: all 0.5s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    z-index: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 18px;
+}
+
+.btn:active {
+    transform: scale(1.1);
+}
+
+.btn-prev {
+    top: 45%;
+    left: 2%;
+}
+
+.btn-next {
+    top: 45%;
+    right: 2%;}
+
+/* Footer */
+
+footer {
+    background: #7e90a140;
+    font-size: 150%;
+    color: #d39b5b;
+    letter-spacing: 1px;
+}
+
+footer a {
+    color: #a8a8a8;
+    padding: 5px;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer .row {
+    padding: 15px;
+}
+
 
 /* Media Queries */
 
