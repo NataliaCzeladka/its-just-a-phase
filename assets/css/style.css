@@ -47,6 +47,10 @@ header {
     font-size: 200%;
 }
 
+.logo img {
+    height: 80px;
+}
+
 /* Navbar */
 
 ul {
@@ -250,7 +254,7 @@ a {
     width: 100%;
 }
 
-/* game.html */
+/* gallery.html */
 
 .intro {
     /* Credit: code for outline effect taken from stackoverflow.com and edited slightly to fit the project's needs */
@@ -345,6 +349,138 @@ footer .row {
 /* Media Queries */
 
 @media screen and (max-width: 576px) {
+
+    .logo {
+        letter-spacing: 1px;
+        font-size: 150%;
+    }
+    
+    .logo img {
+        height: 40px;
+    }
+
+    .navbar-toggler {
+        padding: 0 2cqh;
+}
+
+    li {
+        padding: 0 15px;
+        font-size: 120%;
+        display: block;
+        text-align: right;
+}
+
+.hello {
+    display: block;
+    padding: 20px 20px 0 20px;
+    font-size: 200%;
+}
+
+.main-page {
+    margin: 20px;
+}
+
+.fact-line {
+    margin-bottom: 25px;
+}
+
+.fact-line h5 {
+    line-height: 120%;
+}
+
+.left {
+    text-align: center;
+    padding: 20px;
+}
+
+.right {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.middle {
+    padding: 20px;
+    display: block;
+}
+
+.middle h2 {
+    font-size: 150%;
+}
+
+.middle h5 {
+    font-size: 160%;
+    margin-bottom: 25px;
+}
+
+.moon-picture img {
+    height: 50vw;
+}
+
+.pick-a-date {
+    display: none;
+}
+
+footer {
+    font-size: 130%;
+}
+
+footer a {
+    padding: 3px;
+}
+
+footer .row {
+    padding: 5px;
+}
+
+.line {
+    display: flex;
+    flex-direction: column;
+}
+
+.moon-cycle {
+    padding: 10px 20px;
+    margin: 30px 30px 0 30px;
+}
+
+.moon-cycle h2 {
+    padding: 0;
+    letter-spacing: 1px;
+    font-size: 130%;
+}
+
+.moon-cycle p {
+    padding: 10px 0 0 0;
+    font-size: 110%;
+}
+
+.moon-cycle-img {
+    display: none;
+}
+
+.intro {
+    padding: 10px 0;
+    margin: 0 30px;
+    font-size: 150%;
+}
+
+.slider {
+    margin-top: 20px;
+    width: 80%;
+    height: 400px;
+}
+
+.btn {
+    background-color: #777777;
+}
+
+.faq {
+    padding: 0;
+}
+
+.perspectives-img {
+    margin: 10px 0;
+    width: 100%;
+}
 
 }
 
