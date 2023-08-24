@@ -45,7 +45,7 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav" id="menu">
                         <li class="navbar-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Current Moon Phase</a>
+                            <a class="nav-link" href="index.html">Current Moon Phase</a>
                         </li>
                         <li class="navbar-item">
                             <a class="nav-link" href="comment.html">Moon Cycle Explained</a>
@@ -54,7 +54,7 @@
                             <a class="nav-link" href="faq.html">FAQ</a>
                         </li>
                         <li class="navbar-item">
-                            <a class="nav-link" href="game.html">Check Your Knowledge</a>
+                            <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
                         </li>
                     </ul>
                 </div>
@@ -62,41 +62,30 @@
     </header>
 
     <!-- Main Body -->
-    <main>
-
-    <section class="text-center">
-        <h2 class="hello">Let's check if you're a Moon Cycle expert!</h2>
-        <h3 class="instruction">Match the pictures of all eight Moon Phases with their names. Good luck!</h3>
-    </section>
-
-    <section>
-        <div class="icons">
-            <img src="assets/images/new_moon_graphics.webp" alt="New Moon graphics">
-            <img src="assets/images/waxing_crescent_graphics.webp" alt="Waxing Crescent graphics">
-            <img src="assets/images/first_quarter_graphics.webp" alt="First Quarter graphics">
-            <img src="assets/images/waxing_gibbous_graphics.webp" alt="Waxing Gibbous graphics">
-            <img src="assets/images/full_moon_graphics.webp" alt="Full Moon graphics">
-            <img src="assets/images/waning_gibbous_graphics.webp" alt="Waning Gibbous graphics">
-            <img src="assets/images/third_quarter_graphics.webp" alt="Third Quarter graphics">
-            <img src="assets/images/waning_crescent_graphics.webp" alt="Waning Crescent graphics">
-        </div>
-    </section>
-
-    <section>
-        <div class="notes">
-            <h3>First Quarter</h3>
-            <h3>Waning Gibbous</h3>
-            <h3>New Moon</h3>
-            <h3>Waning Crescent</h3>
-            <h3>Waxing Crescent</h3>
-            <h3>Third Quarter</h3>
-            <h3>Full Moon</h3>
-            <h3>Waxing Gibbous</h3>
-        </div>
-    </section>
+    <main class="gallery">
 
     <div class="text-center">
-    <button class="start">Play</button>
+        <h2 class="hello">Welcome to the Moon Cycle Photo Gallery!</h2>
+        <h3 class="intro">The mesmerizing collection of images of our closest celestial neighbour and its breathtaking journey across the night sky.</h3>
+    </div>
+
+    <div class="slider">
+        <div class="icons">
+            <img src="assets/images/new_moon.webp" alt="New Moon graphics">
+            <img src="assets/images/waxing_crescent.webp" alt="Waxing Crescent graphics">
+            <img src="assets/images/first_quarter.webp" alt="First Quarter graphics">
+            <img src="assets/images/waxing_gibbous.webp" alt="Waxing Gibbous graphics">
+            <img src="assets/images/full_moon.webp" alt="Full Moon graphics">
+            <img src="assets/images/waning_gibbous.webp" alt="Waning Gibbous graphics">
+            <img src="assets/images/third_quarter.webp" alt="Third Quarter graphics">
+            <img src="assets/images/waning_crescent.webp" alt="Waning Crescent graphics">
+        </div>
+        <button class="btn btn-next">></button>
+        <button class="btn btn-prev">></button>
+    </div>
+
+    <div class="text-center" >
+    <button class="start" onclick="viewGallery">View photos</button>
     </div>
 
     </main>

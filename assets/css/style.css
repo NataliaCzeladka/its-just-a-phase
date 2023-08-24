@@ -65,6 +65,18 @@ a {
     margin-right: 20px;
 }
 
+.navbar-toggler {
+    padding: 0 40px;
+    border: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 #menu a {
     color: inherit;
 }
@@ -91,6 +103,7 @@ a {
 
 .hello {
     letter-spacing: 2px;
+    /* Credit: code for outline effect taken from stackoverflow.com and edited slightly to fit the project's needs */
     text-shadow: #000 4px 4px 4px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px;
     -webkit-font-smoothing: antialiased;
     text-align: center;
@@ -99,10 +112,11 @@ a {
     font-size: 300%;
 }
 
-.instruction {
+.intro {
     text-shadow: #000 4px 4px 4px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px;
     -webkit-font-smoothing: antialiased;
     padding: 10px 0;
+    margin: 0 150px;
     color:#d39b5b;
     font-size: 220%;
 }
@@ -224,21 +238,8 @@ footer .row {
 }
 
 .icons img {
-    height: 10vw;
-    width: 10vw;
-    padding: 20px;
-}
-
-.notes {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    margin: 40px 10px;
-}
-
-.notes h3 {
-    flex:1;
-    font-size: 220%;
+    height: 12vw;
+    width: 12vw;
     padding: 20px;
 }
 
@@ -251,7 +252,12 @@ footer .row {
     background-color: transparent;
     border-radius: 10px;
     padding: 5px 50px;
+    margin-bottom: 60px;
     text-align: center;
+}
+
+.start:hover {
+    color:#fff;
 }
 
 .pick-a-date {
@@ -288,4 +294,29 @@ footer .row {
     text-align: center;
     padding: 5px;
     border: 1px solid #777777;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 576px) {
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+
+
 }
