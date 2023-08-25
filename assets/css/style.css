@@ -193,6 +193,8 @@ a {
 .calendar {
     font-family: 'Quattrocento', serif;
     font-size: 130%;
+    overflow-x: auto;
+    max-width: 80vw;
 }
 
 .calendar th {
@@ -348,11 +350,23 @@ footer .row {
 
 /* Media Queries */
 
+@media screen and (max-width: 345px) {
+
+    .logo {
+        font-size: 120%;
+    }
+
+    .logo img {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 576px) {
 
     .logo {
-        letter-spacing: 1px;
-        font-size: 150%;
+        margin-left: 10px;
+        letter-spacing: 0px;
+        font-size: 140%;
     }
     
     .logo img {
@@ -360,7 +374,7 @@ footer .row {
     }
 
     .navbar-toggler {
-        padding: 0 2cqh;
+        padding: 0 20px;
 }
 
     li {
@@ -373,11 +387,11 @@ footer .row {
 .hello {
     display: block;
     padding: 20px 20px 0 20px;
-    font-size: 200%;
+    font-size: 180%;
 }
 
 .main-page {
-    margin: 20px;
+    margin: 20px 15px;
 }
 
 .fact-line {
@@ -385,12 +399,13 @@ footer .row {
 }
 
 .fact-line h5 {
-    line-height: 120%;
+    font-size: 120%;
+    line-height: 110%;
 }
 
 .left {
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .right {
@@ -413,12 +428,216 @@ footer .row {
 }
 
 .moon-picture img {
+    height: 65vw;
+}
+
+.pick-a-date {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pick-a-date h2 {
+    font-size: 160%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.pick-a-date h4 {
+    font-size: 120%;
+    text-align: center;
+}
+
+.calendar {
+    font-size: 100%;
+    overflow-x: auto;
+    max-width: 80vw;
+}
+
+.calendar th {
+    padding: 3px;
+    border: 1px solid #777777;
+}
+
+.calendar td {
+    padding: 3px;
+    border: 1px solid #777777;
+}
+
+footer {
+    font-size: 120%;
+}
+
+footer a {
+    padding: 3px;
+}
+
+footer .row {
+    padding: 5px;
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+.line {
+    display: flex;
+    flex-direction: column;
+}
+
+.moon-cycle {
+    padding: 10px 20px;
+    margin: 20px 20px 0 20px;
+}
+
+.moon-cycle h2 {
+    padding: 0;
+    letter-spacing: 1px;
+    font-size: 130%;
+}
+
+.moon-cycle p {
+    padding: 10px 0 0 0;
+    font-size: 100%;
+}
+
+.moon-cycle-img {
+    display: none;
+}
+
+.intro {
+    padding: 10px 0 0 0;
+    margin: 0 30px;
+    font-size: 130%;
+}
+
+.slider {
+    margin-top: 0px;
+    width: 80%;
+    height: 400px;
+}
+
+.btn {
+    background-color: #777777;
+}
+
+.faq {
+    padding: 0;
+}
+
+.perspectives-img {
+    margin: 10px 0;
+    width: 100%;
+}
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+
+    .logo {
+        margin-left: 20px;
+        letter-spacing: 2px;
+        font-size: 180%;
+    }
+    
+    .logo img {
+        height: 60px;
+    }
+
+    .navbar-toggler {
+        padding: 0 20px;
+}
+
+    li {
+        padding: 0 15px;
+        font-size: 140%;
+        display: block;
+        text-align: right;
+}
+
+.hello {
+    display: block;
+    padding: 20px 20px 0 20px;
+    font-size: 200%;
+}
+
+.main-page {
+    margin: 20px;
+}
+
+.fact-line {
+    margin-bottom: 25px;
+}
+
+.fact-line h5 {
+    line-height: 110%;
+}
+
+.left {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.right {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.middle {
+    padding: 20px;
+    display: block;
+}
+
+.middle h2 {
+    font-size: 180%;
+}
+
+.middle h5 {
+    font-size: 160%;
+    margin-bottom: 25px;
+}
+
+.moon-picture img {
     height: 50vw;
 }
 
 .pick-a-date {
-    display: none;
+    margin: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.pick-a-date h2 {
+    font-size: 180%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.pick-a-date h4 {
+    font-size: 130%;
+    text-align: center;
+    padding: 20px;
+}
+
+.calendar {
+    font-size: 120%;
+    overflow-x: auto;
+    max-width: 80vw;
+}
+
+.calendar th {
+    padding: 3px;
+    border: 1px solid #777777;
+    text-align: center;
+}
+
+.calendar td {
+    padding: 3px;
+    border: 1px solid #777777;
+}
+
+
 
 footer {
     font-size: 130%;
@@ -430,6 +649,10 @@ footer a {
 
 footer .row {
     padding: 5px;
+}
+
+main {
+    margin-bottom: 20px;
 }
 
 .line {
@@ -464,7 +687,7 @@ footer .row {
 }
 
 .slider {
-    margin-top: 20px;
+    margin: 40px 0;
     width: 80%;
     height: 400px;
 }
@@ -481,14 +704,9 @@ footer .row {
     margin: 10px 0;
     width: 100%;
 }
-
 }
 
-@media screen and (min-width: 576px) and (max-width: 768px) {
-
-}
-
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 769px) and (max-width: 1200px) {
 
 }
 
