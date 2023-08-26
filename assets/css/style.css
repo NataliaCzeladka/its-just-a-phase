@@ -11,7 +11,7 @@ html {
 body {
     font-family: 'Quattrocento', serif;
     background-color: #04030e;
-    background-image: url(../images/des_recits_unsplash.webp);
+    background-image: url("../images/des_recits_unsplash.webp");
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -362,7 +362,7 @@ footer .row {
     }
     
     .main-page {
-        margin: 30px;
+        margin: 30px 20px;
     }
     
     .fact-line {
@@ -576,6 +576,13 @@ footer .row {
     
     footer {
         font-size: 130%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+    .moon-picture img {
+        width: 40vw;
+        height: 40vw;
     }
 }
 
