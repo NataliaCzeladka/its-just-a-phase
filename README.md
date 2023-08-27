@@ -101,3 +101,15 @@ The images used on the website were sourced from two leading providers of free s
     - background image of all four pages: photo by [Des Récits](https://unsplash.com/@desrecits).
 
 Phases of the Moon diagram was downloaded from [NASA's Solar System Exploration website](https://solarsystem.nasa.gov/resources/676/phases-of-the-moon/), credit: Bill Dunford. Data visualization of the Waning Crescent Moon as seen from the northern and southern hemispheres came from [NASA's Earth's Moon Website](https://moon.nasa.gov/inside-and-out/top-moon-questions/), credit: NASA’s Scientific Visualization Studio.
+
+### Wireframes
+
+### Wireframes
+
+Wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/) - the industry top wireframing software.
+
+| Size | Screenshot |
+| --- | --- |
+| Mobile | ![Mobile Wireframes](docs/wireframe_mobile.webp) |
+| Tablet | ![Tablet Wireframes](docs/wireframe_tablet.webp) |
+| Desktop | ![Desktop Wireframes](docs/wireframe_desktop.webp) |
