@@ -24,6 +24,8 @@ Return back to the [README.md](README.md) file.
 
 [The W3C Markup Validation Service](https://validator.w3.org/) and [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) were used to validate every page of the project to ensure there were no syntax errors. The results clearly showed that the website stays in compliance with the standards and recommendations set by the World Wide Web Consortium.
 
+[JSLint](https://www.jslint.com/), a static code analysis tool, was used to check if JavaScript source code complies with coding rules.
+
 ### HTML Validation
 
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files. No errors or warnings were found.
@@ -42,3 +44,12 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 | File | Jigsaw URL | Screenshot | Notes |
 | --- | --- | --- | --- |
 | style.css | [Jigsaw](https://jigsaw.w3.org/css-validator) | ![style.css validation](docs/style.css_validation.webp) | Pass: No Errors |
+
+### JSLint Code Analysis Tool
+
+I have used [JSLint](https://www.jslint.com/) to identify potential errors in my two JavaScript files. No errors were found.
+
+| File | Screenshot | Notes |
+| --- | --- | --- |
+| script.js | ![script.js](docs/script_jslint.webp) | No errors found
+| gallery.js | ![gallery.js](docs/gallery_jslint.webp) | No errors found
