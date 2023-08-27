@@ -2,6 +2,10 @@
 
 "It's just a phase!" is a simple online tool that allows you to track the Moon Cycle. It displays the current Moon Phase alongside its image and detailed description. Additionally, it offers other relevant information such as the approximate distance between the Moon and Earth, the percentage of the Moon that is currently visible, the number of days until the next Full Moon etc., all of which are updated daily. The website also explains how the Moon Cycle works; it lists and describes all phases of the Moon. Finally, it showcases the changes in the Moon's surface throughout the cycle with a small photo gallery. The site is composed of four pages: Current Moon Phase, Moon Cycle Explained, FAQ, and Gallery.
 
+![It's just a phase!](docs/mockup.webp)
+
+"It's just a phase!" deployed website is available [here](https://nataliaczeladka.github.io/its-just-a-phase/).
+
 ## Table of Contents
 
 - [It's just a phase! - your daily Moon Phase Tracker](#its-just-a-phase---your-daily-moon-phase-tracker)
