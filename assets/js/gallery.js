@@ -1,4 +1,4 @@
-//Credit: code for carousel gallery taken from LogRocket Frontend Analytics website and edited to fit the project's needs
+//Credit: code for image carousel taken from LogRocket Frontend Analytics website and edited to fit the project's needs
 //blog.logrocket.com/build-image-carousel-from-scratch-vanilla-javascript/
 
 // Select all slides
