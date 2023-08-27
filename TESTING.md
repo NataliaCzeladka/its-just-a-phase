@@ -34,3 +34,11 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 | Moon Cycle Explained | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnataliaczeladka.github.io%2Fits-just-a-phase%2Fcomment.html) | ![comment.html validation](docs/comment.html_validation.webp) | Pass: No Errors |
 | FAQ | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnataliaczeladka.github.io%2Fits-just-a-phase%2Ffaq.html) | ![faq.html validation](docs/faq.html_validation.webp) | Pass: No Errors |
 | Gallery | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnataliaczeladka.github.io%2Fits-just-a-phase%2Fgallery.html) | ![gallery.html validation](docs/gallery.html_validation.webp) | Pass: No Errors |
+
+### CSS Validation
+
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate my CSS file. No errors were found.
+
+| File | Jigsaw URL | Screenshot | Notes |
+| --- | --- | --- | --- |
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator) | ![style.css validation](docs/style.css_validation.webp) | Pass: No Errors |
