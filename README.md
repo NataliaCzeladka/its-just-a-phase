@@ -113,3 +113,31 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/) - the
 | Mobile | ![Mobile Wireframes](docs/wireframe_mobile.webp) |
 | Tablet | ![Tablet Wireframes](docs/wireframe_tablet.webp) |
 | Desktop | ![Desktop Wireframes](docs/wireframe_desktop.webp) |
+
+## Technologies Used
+
+### Languages Used
+
+- [HTML](https://en.wikipedia.org/wiki/HTML) - used for the main site content.
+- [CSS](https://en.wikipedia.org/wiki/CSS) - used for the main site design and layout.
+- [JavaScript](https://www.javascript.com) - used for user interaction on the site.
+
+### Frameworks, Libraries and Programs Used
+
+- [Am I responsive?](https://ui.dev/amiresponsive) - used to check the site's responsiveness and to create mockups.
+- [Balsamiq](https://balsamiq.com/wireframes/) - used to create wireframes.
+- [Bootstrap v5.3](https://getbootstrap.com/) - used to assist with responsiveness by utilizing its layout elements and responsive navigation.
+- [Coolors](https://coolors.co/) - used to create the colour palette.
+- [Font Awesome](https://fontawesome.com/) - used to provide icons across the website.
+- [Fontpair](https://www.fontpair.co/all) - used for font pairing.
+- [Free Convert](https://www.freeconvert.com/jpg-to-webp) - used to convert jpg/png images to webp format.
+- [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - used to inspect and debug the code.
+- [Google Fonts](https://fonts.google.com/) - used to import the fonts that style all of the text content.
+- [Git](https://git-scm.com/) - used for version control by utilizing VS Code's terminal.
+- [GitHub](https://github.com/) - used to store the project's code and images in the repository.
+- [GitHub Pages](https://pages.github.com/) - used to deploy the website.
+- [Icon-Icons](https://icon-icons.com/) - used to provide the favicon.
+- [Marked Library](https://marked.js.org/) - used to convert external API's response in markdown format to HTML.
+- [Moon Phase API](https://rapidapi.com/MoonAPIcom/api/moon-phase/) - external API used as a provider of comprehensive astronomical data.
+- [Tiny.png](https://tinypng.com/) - used to reduce the size of the image files.
+- [Visual Studio Code](https://code.visualstudio.com/) - used as a code editor.
