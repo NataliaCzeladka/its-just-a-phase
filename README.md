@@ -38,6 +38,36 @@
     - [Media](#media)
     - [Acknowledgements](#acknowledgements)
 
+## User Experience (UX)
+
+### User Stories
+
+#### Client Goals
+
+- To provide users with accurate and up-to-date information about the current phase of the Moon. This could include displaying the Moon's appearance, percentage of illumination, distance to the Moon from Earth, and other relevant details.
+- To educate users about the different phases of the Moon and the science behind them. It could provide explanations, diagrams, and relevant images to help users understand the lunar cycle.
+- To provide a visual calendar that displays the Moon phases for a specific period (e.g., a year) that can help users track the Moon's changing appearance over time.
+- To deliver all of the above in the form of a visually appealing, intuitive, responsive across different devices and easy to navigate website.
+
+#### First Time User Goals
+
+- To quickly and easily see the current phase of the Moon, whether it's a Full Moon, New Moon, Waxing Crescent, Waning Gibbous, etc.
+- Users might be interested in accessing more than just the current Moon Phase. They might want additional information such as Moon illumination percentage, number of days through the cycle, number of days till the next Full Moon, etc.
+- To explore a calendar view that shows the Moon's phases for a specific period, helping them understand how the Moon's appearance changes over time.
+- To learn about the different phases of the Moon and their significance. They might be curious about why the Moon's appearance changes over time.
+- To navigate throughout the page in an easy, effortless and intuitive way.
+- To have a positive and enjoyable experience while browsing the website.
+
+#### Returning/Frequent User Goals
+
+- To continue tracking the Moon's changing phases to deepen their understanding of lunar patterns and cycles.
+- To plan upcoming activities that align with specific Moon phases, such as outdoor events, photography sessions, or astronomical observations.
+- To revisit the website's settings to fine-tune their preferences, such as adjusting time zones or choosing favorite locations.
+- To share their own observations, photos, or experiences related to Moon phases within the website's community.
+- To stay informed about upcoming celestial events beyond Moon phases, such as meteor showers, planetary alignments, asteroids and comets.
+- To access the provider's social media accounts.
+- To offer feedback to the app developers based on their experiences, helping to shape future updates and improvements.
+
 ## Design
 
 ### Colour Scheme
