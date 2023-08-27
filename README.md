@@ -88,4 +88,16 @@ The combination of well-matching Playfair Display and Quattrocento fonts was sug
 
 - The [Quattrocento](https://fonts.google.com/specimen/Quattrocento?query=quattro) font is the main font used throughout the whole website with Serif as the fallback font. It's a classic and elegant typeface that ensures easy readability. It was mainly used to provide text content to the paragraphs.
 
-[Font Awesome](https://fontawesome.com/) icons were used for social media links in the footer.
+[Font Awesome](https://fontawesome.com/) icons were used throughout the site, such as the social media icons in the footer.
+
+### Imagery
+
+Imagery plays a vital role in capturing the awe-inspiring beauty of the Moon in "It's just a phase!" Moon Phase Tracker. Its main purpose is to inspire and immerse visitors in the captivating world of the lunar cycle - and to encourage them to expand their knowledge on this topic.
+
+The images used on the website were sourced from two leading providers of free stock photography:
+- [Pexels](https://www.pexels.com/)
+    - images of all eight Moon phases by [Maxwell Fury](https://pixabay.com/users/maxwellfury-4913791/),
+- [Unsplash](https://unsplash.com/)
+    - background image of all four pages: photo by [Des Récits](https://unsplash.com/@desrecits).
+
+Phases of the Moon diagram was downloaded from [NASA's Solar System Exploration website](https://solarsystem.nasa.gov/resources/676/phases-of-the-moon/), credit: Bill Dunford. Data visualization of the Waning Crescent Moon as seen from the northern and southern hemispheres came from [NASA's Earth's Moon Website](https://moon.nasa.gov/inside-and-out/top-moon-questions/), credit: NASA’s Scientific Visualization Studio.
