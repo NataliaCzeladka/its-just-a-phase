@@ -45,7 +45,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 | --- | --- | --- | --- |
 | style.css | [Jigsaw](https://jigsaw.w3.org/css-validator) | ![style.css validation](docs/style.css_validation.webp) | Pass: No Errors |
 
-### JSLint Code Analysis Tool
+### JSLint Testing
 
 I have used [JSLint](https://www.jslint.com/) to identify potential errors in my two JavaScript files. No errors were found.
 
@@ -53,3 +53,14 @@ I have used [JSLint](https://www.jslint.com/) to identify potential errors in my
 | --- | --- | --- |
 | script.js | ![script.js](docs/script_jslint.webp) | No errors found
 | gallery.js | ![gallery.js](docs/gallery_jslint.webp) | No errors found
+
+## Browser Compatibility
+
+I have tested my deployed project on multiple browsers to check for compatibility issues.
+
+| Browser | Screenshot | Notes |
+| --- | --- | --- |
+| Chrome | ![screenshot](docs/chrome.webp) | Works as expected |
+| Firefox | ![screenshot](docs/firefox.webp) | Works as expected |
+| Edge | ![screenshot](docs/edge.webp) | Works as expected |
+| Opera | ![screenshot](docs/opera.webp) | Works as expected |
