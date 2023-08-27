@@ -3,7 +3,6 @@
 
 // Select all slides
 const slides = document.querySelectorAll(".slide");
-console.log(slides);
 
 // Loop through the slides and set each slides translateX property to index * 100%
 slides.forEach((slide, indx) => {
@@ -22,7 +21,7 @@ let maxSlide = slides.length - 1;
 nextSlide.addEventListener("click", function () {
   // check if current slide is the last and reset current slide
   if (curSlide === maxSlide) {
-    curSlide === maxSlide;
+    curSlide = maxSlide;
   } else {
     curSlide++;
   }
@@ -39,7 +38,7 @@ const prevSlide = document.querySelector(".btn-prev");
 prevSlide.addEventListener("click", function () {
   // check if current slide is the first and reset current slide to last
   if (curSlide === 0) {
-    curSlide === 0;
+    curSlide = 0;
   } else {
     curSlide--;
   }

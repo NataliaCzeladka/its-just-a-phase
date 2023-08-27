@@ -34,7 +34,7 @@ const ordinals = [
   "28th",
   "29th",
   "30th",
-  "31st",
+  "31st"
 ];
 let ordinal = ordinals[date.getDate() - 1];
 
@@ -45,7 +45,7 @@ const weekdays = [
   "Wednesday",
   "Thursday",
   "Friday",
-  "Saturday",
+  "Saturday"
 ];
 let weekday = weekdays[date.getDay()];
 
@@ -62,7 +62,7 @@ const fullMonths = [
   "September",
   "October",
   "November",
-  "December",
+  "December"
 ];
 let fullMonth = fullMonths[date.getMonth()];
 
@@ -74,7 +74,6 @@ document.getElementById("date").innerHTML = fullDate;
 // Consuming external API
 // https://rapidapi.com/MoonAPIcom/api/moon-phase/
 
-let data;
 let baseURL = "https://moon-phase.p.rapidapi.com/advanced";
 
 const fetchMoonPhaseData = async () => {
@@ -83,12 +82,12 @@ const fetchMoonPhaseData = async () => {
       method: "GET",
       headers: {
         "x-rapidapi-host": "moon-phase.p.rapidapi.com",
-        "x-rapidapi-key": "e1748088ddmshf67ba4347bdd975p1a8de2jsn0a545e552fd2",
-      },
+        "x-rapidapi-key": "e1748088ddmshf67ba4347bdd975p1a8de2jsn0a545e552fd2"
+      }
     });
 
     if (!response.ok) {
-      throw new Error(`HTTP error ${response.status}`);
+      new Error(`HTTP error ${response.status}`);
     }
 
     let data = await response.json();
@@ -101,12 +100,12 @@ const fetchMoonPhaseData = async () => {
     displayNextFullMoon(data.moon_phases.full_moon.next.days_ahead);
   } catch (error) {
     console.error("Error fetching data:", error);
-    displayIllumination,
-    displayMoonDistance,
-    displayMoonAge,
-    displayCyclePercentage,
-    displayZodiacSign,
-    displayNextFullMoon,
+    displayIllumination;
+    displayMoonDistance;
+    displayMoonAge;
+    displayCyclePercentage;
+    displayZodiacSign;
+    displayNextFullMoon;
     displayMoonData("Error fetching Moon Phase data");
   }
 };
@@ -166,6 +165,7 @@ let displayMoonData = (moon_phase) => {
         "<img src='assets/images/waning_crescent.webp' alt='Current Moon Phase: Waning Crescent'>";
       document.getElementById("moon-text").innerHTML =
         "Less than half of the Moon's face appears to be getting sunlight, and the amount is decreasing. <q>Waning</q> means shrinking or decreasing in illumination, while <q>crescent</q> refers to the phases where the Moon is less than half illuminated.";
+      break;
   }
 };
 
