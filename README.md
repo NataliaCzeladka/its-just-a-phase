@@ -141,3 +141,37 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/) - the
 - [Moon Phase API](https://rapidapi.com/MoonAPIcom/api/moon-phase/) - external API used as a provider of comprehensive astronomical data.
 - [Tiny.png](https://tinypng.com/) - used to reduce the size of the image files.
 - [Visual Studio Code](https://code.visualstudio.com/) - used as a code editor.
+
+## Testing
+
+For all testing, please refer to the [TESTING.md](TESTING.md) file.
+
+## Deployment
+
+### Deploying the project to GitHub Pages
+
+1. Log in to your GitHub account and locate the repository you would like to deploy.
+2. Navigate to the "Settings" tab at the top of your selected repository.
+3. Select "Pages" from the menu on the left-hand side of the screen.
+4. Make sure the "Select" dropdown menu shows "Deploy from a branch".
+5. From the "Branch" dropdown menu select "Main" and click "Save".
+6. The page will automatically refresh and display the link to your deployed website.
+
+### Forking the GitHub repository
+
+By forking the repository, you make a copy of the original repository on your GitHub account to view or to make changes to, without affecting the original repository.
+
+1. Log in to your GitHub account and locate the repository you would like to fork.
+2. At the top of the repository on the right-hand side of the screen, locate the "Fork" button.
+3. After clicking on it, you should have your own copy of the original repository in your GitHub account.
+
+### Making a local clone
+
+Making a clone is basically making a copy of the selected repository.
+
+1. Log in to your GitHub account and locate the repository you would like to clone.
+2. Click on the "Code" button just under the repository name.
+3. Copy the HTTPS link from the website address bar.
+4. Open a GitBash terminal and locate the directory where you want to place the clone.
+5. Type 'git clone' and then paste the URL you copied earlier.
+6. Press enter. Then your local clone will be created.
