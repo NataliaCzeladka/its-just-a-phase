@@ -64,3 +64,13 @@ I have tested my deployed project on multiple browsers to check for compatibilit
 | Firefox | ![screenshot](docs/firefox.webp) | Works as expected |
 | Edge | ![screenshot](docs/edge.webp) | Works as expected |
 | Opera | ![screenshot](docs/opera.webp) | Works as expected |
+
+## Responsiveness
+
+I have tested my deployed project on multiple devices to check for responsiveness issues. It responds well to different screen sizes ensuring that users can access and navigate the content effortlessly, regardless of their chosen device. No design or functionality issues were found.
+
+| Device | Screenshot | Notes |
+| --- | --- | --- |
+| Mobile (DevTools) | ![screenshot](docs/mobile.webp) | Works as expected |
+| Tablet (DevTools) | ![screenshot](docs/tablet.webp) | Works as expected |
+| Desktop | ![screenshot](docs/firefox.webp) | Works as expected |
