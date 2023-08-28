@@ -123,3 +123,17 @@ I have tested my deployed project using the Lighthouse Audit tool to check for a
 | As a returning/frequent user, I should be able to stay informed about upcoming celestial events beyond Moon phases, such as meteor showers, planetary alignments, asteroids and comets. | Take a look at the Future Implementations section in [README.md](README.md) file. |
 | As a returning/frequent user, I should be able to access the provider's social media accounts. | ✔️ |
 | As a returning/frequent user, I should be able to offer feedback to the app developers based on my experiences, helping to shape future updates and improvements. | Take a look at the Future Implementations section in [README.md](README.md) file. |
+
+## Fixed Bugs
+
+- The Lunar Cycle Calendar was initially delivered in markdown format. I have managed to find the library that successfully converted it into HTML.
+
+![Markdown response](docs/markdown.webp)
+
+- The calendar used to display all months as 31-day-long, except December, which should be 31-day-long, but was displayed one day shorter. As suggested by my mentor, I used `for loop` to delete all extra days. It didn't affect the Moon Phases. The data is still correct and up-to-date.
+
+![Old calendar](docs/old_calendar.webp)
+
+## Unfixed Bugs
+
+There are no remaining bugs that I am aware of.
