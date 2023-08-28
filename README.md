@@ -14,8 +14,7 @@
     - [User Stories](#user-stories)
       - [Client Goals](#client-goals)
       - [First Time User Goals](#first-time-user-goals)
-      - [Returning User Goals](#returning-user-goals)
-      - [Frequent User Goals](#frequent-user-goals)
+      - [Returning/Frequent User Goals](#returningfrequent-user-goals)
   - [Design](#design)
     - [Colour Scheme](#colour-scheme)
     - [Typography](#typography)
@@ -60,7 +59,7 @@
 
 #### Returning/Frequent User Goals
 
-- To continue tracking the Moon's changing phases to deepen their understanding of lunar patterns and cycles.
+- To continue tracking the Moon's changing phases to deepen their understanding of the Lunar Cycle.
 - To plan upcoming activities that align with specific Moon phases, such as outdoor events, photography sessions, or astronomical observations.
 - To revisit the website's settings to fine-tune their preferences, such as adjusting time zones or choosing favorite locations.
 - To share their own observations, photos, or experiences related to Moon phases within the website's community.
@@ -104,8 +103,6 @@ Phases of the Moon diagram was downloaded from [NASA's Solar System Exploration 
 
 ### Wireframes
 
-### Wireframes
-
 Wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/) - the industry top wireframing software.
 
 | Size | Screenshot |
@@ -113,6 +110,51 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/) - the
 | Mobile | ![Mobile Wireframes](docs/wireframe_mobile.webp) |
 | Tablet | ![Tablet Wireframes](docs/wireframe_tablet.webp) |
 | Desktop | ![Desktop Wireframes](docs/wireframe_desktop.webp) |
+
+### Features
+
+#### Exisiting Features
+
+"It's just a phase!" consists of four pages: Current Moon Phase, Moon Cycle Explained, FAQ and Gallery.
+
+Some features are common for all of them. These are:
+
+- Page Header - It's comprised of the logo in the top left corner, the site's name and the responsive navigation, which collapses on medium and small devices to the shape of a hamburger menu. The collapsed menu holds a list of links to all four pages. When the lines are clicked or tapped on, the menu slides into view. A link appears underlined when a user hovers over it. The active link stays underlined. The responsive navigation header was built using Bootstrap.
+
+![Page Header](docs/header.webp)
+![Navigation header on large devices](docs/collapsed_menu.webp)
+![Navigation header on small devices](docs/hamburger.webp)
+
+- Page Footer - It stretches across the entire width of the screen. It consists of social media links on the left side and copyright information on the right. It was created using Bootstrap's `container-fluid`. Social media icons change their colour to white when a user hovers over them.
+
+![Page Footer on large devices](docs/footer_large.webp)
+![Page Footer on small devices](docs/Footer_small.webp)
+
+Home page consists of:
+
+- Main heading - It indicates clearly what's the website's main purpose. 
+
+![Main heading](docs/main_heading.webp)
+
+- First section - It's nearly entirely built of information obtained from the external source, which is Moon Phase API, a provider of comprehensive astronomical data. The information provided includes the name of a current Moon Phase, its image and description, an approximate distance to the Moon from Earth, a percentage of illumination, a current zodiac sign, a percentage of the complete Lunar Cycle, the number of days till the next Full Moon and the age of the Moon since the last New Moon. It's all wrapped in the `container-fluid`, which divides the section into three columns. On smaller devices they are stacked one below the other, the middle column first, then the left one and the right one at the end.
+
+![First Section](docs/first_section.webp)
+
+- Second Section - It consists of the heading, short instructions and the Lunar Cycle calendar for the current year. The calendar, like the previous section, is also the effect of consuming the Moon Phase API. This data was originally delivered in markdown format, but it was converted into HTML using the Marked Library (CDN link provided in the head of the index.html file). A horizontal scroll bar is added at the bottom of it to make the whole calendar accessible to users.
+
+![Second Section](docs/second_section.webp)
+
+The second page, Moon Cycle Explained, consists of one section divided into three columns. On medium devices, they are stacked one below the other, on small ones the image in the middle is hidden. This section explains what are the Moon Phases and why our view of the Moon changes throughout the month. It also lists and describes all of the eight Moon Phases providing a graphical representation of how it all may look on the night sky.
+
+![Moon Cycle Explained](docs/comment_features.webp)
+
+The third page, Frequently Asked Questions, answers a few simple questions about the Moon Phases and the Moon Cycle in general. Like the previous page, this one also consists of just one section divided into three columns. On smaller devices, they are stacked one below the other. They are all placed on a slightly darker background than the main background picture to make to text fully visible and easy to read.
+
+![FAQ](docs/faq_features.webp)
+
+The fourth and the last page, the Gallery, consists of the main heading, a short introduction and eight images illustrating eight Moon Phases - displayed in the form of an image carousel, which was created from scratch using JavaScript.
+
+![Gallery](docs/gallery_features.webp)
 
 ## Technologies Used
 
@@ -175,3 +217,24 @@ Making a clone is basically making a copy of the selected repository.
 4. Open a GitBash terminal and locate the directory where you want to place the clone.
 5. Type 'git clone' and then paste the URL you copied earlier.
 6. Press enter. Then your local clone will be created.
+
+## Credits
+
+### Code
+
+- Code for the outline effect used on multiple occasions across the CSS stylesheet was taken from [Stack Overflow](https://stackoverflow.com/questions/4919076/outline-effect-to-text) and was slightly edited to fit the project's needs.
+
+Screenshot of the post:
+![Outline Effect](docs/outline_effect_credit.png)
+
+- [Bootstrap v5.3](https://getbootstrap.com/) - Bootstrap's 'container-fluid' was used throughout the project to make the site responsive.
+
+### Content
+
+### Media
+
+### Acknowledgements
+
+- [Iuliia Konovalova](https://github.com/IuliiaKonovalova) (my Code Institute mentor) - for sharing her impressive knowledge, for guidance, constructive feedback and understanding 
+- [Callum Jones](https://www.linkedin.com/in/callum-jones-9b80941b8/) (Newcastle College cohort facilitator) - for his helpful advice and continuous encouragement throughout the creation of my website.
+- [Code Institute Slack Community](https://code-institute-room.slack.com) - for the moral support; it kept me going during periods of self doubt and imposter syndrome.
