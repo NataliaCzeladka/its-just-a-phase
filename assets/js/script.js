@@ -220,7 +220,7 @@ const fetchMoonDataTable = async () => {
       // Markdown content
       let markdownResponse = this.response;
 
-      // Convert Markdown to HTML using marked library (CDN link provided in the header of index.html file)
+      // Convert Markdown to HTML using marked library (CDN link provided in the head of the index.html file)
       const htmlContent = marked(markdownResponse);
       console.log(htmlContent);
 

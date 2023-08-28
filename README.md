@@ -113,7 +113,7 @@ Wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/) - the
 
 ### Features
 
-#### Exisiting Features
+#### Existing Features
 
 "It's just a phase!" consists of four pages: Current Moon Phase, Moon Cycle Explained, FAQ and Gallery.
 
@@ -235,6 +235,6 @@ Screenshot of the post:
 
 ### Acknowledgements
 
-- [Iuliia Konovalova](https://github.com/IuliiaKonovalova) (my Code Institute mentor) - for sharing her impressive knowledge, for guidance, constructive feedback and understanding 
+- [Iuliia Konovalova](https://github.com/IuliiaKonovalova) (my Code Institute mentor) - for sharing her impressive knowledge, for guidance, constructive feedback and understanding
 - [Callum Jones](https://www.linkedin.com/in/callum-jones-9b80941b8/) (Newcastle College cohort facilitator) - for his helpful advice and continuous encouragement throughout the creation of my website.
 - [Code Institute Slack Community](https://code-institute-room.slack.com) - for the moral support; it kept me going during periods of self doubt and imposter syndrome.

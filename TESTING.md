@@ -9,14 +9,14 @@ Return back to the [README.md](README.md) file.
   - [Code Validation](#code-validation)
     - [HTML Validation](#html-validation)
     - [CSS Validation](#css-validation)
+    - [JS Lint Testing](#js-lint-testing)
   - [Browser Compatibility](#browser-compatibility)
   - [Responsiveness](#responsiveness)
   - [Lighthouse Audit](#lighthouse-audit)
   - [User Stories Testing](#user-stories-testing)
     - [Client Goals](#client-goals)
     - [First Time User Goals](#first-time-user-goals)
-    - [Returning User Goals](#returning-user-goals)
-    - [Frequent User Goals](#frequent-user-goals)
+    - [Returning/Frequent User Goals](#returningfrequent-user-goals)
   - [Fixed Bugs](#fixed-bugs)
   - [Unfixed Bugs](#unfixed-bugs)
 
@@ -24,11 +24,11 @@ Return back to the [README.md](README.md) file.
 
 [The W3C Markup Validation Service](https://validator.w3.org/) and [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) were used to validate every page of the project to ensure there were no syntax errors. The results clearly showed that the website stays in compliance with the standards and recommendations set by the World Wide Web Consortium.
 
-[JSLint](https://www.jslint.com/), a static code analysis tool, was used to check if JavaScript source code complies with coding rules.
+[JSLint](https://www.jslint.com/), a static code analysis tool, was used to check if JavaScript source code complies with coding rules. No errors were found in this area.
 
 ### HTML Validation
 
-I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files. No errors or warnings were found.
+I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files. No errors were found. A few minor warnings appeared indicating empty headings in index.html file. The headings were empty for a reason though as they were designed to be containers for external API's data.
 
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
@@ -45,7 +45,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 | --- | --- | --- | --- |
 | style.css | [Jigsaw](https://jigsaw.w3.org/css-validator) | ![style.css validation](docs/style.css_validation.webp) | Pass: No Errors |
 
-### JSLint Testing
+### JS Lint Testing
 
 I have used [JSLint](https://www.jslint.com/) to identify potential errors in my two JavaScript files. No errors were found.
 
