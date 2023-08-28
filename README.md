@@ -59,7 +59,7 @@
 
 #### Returning/Frequent User Goals
 
-- To continue tracking the Moon's changing phases to deepen their understanding of the Lunar Cycle.
+- To continue tracking the Moon's changing phases to deepen their understanding of the lunar cycle.
 - To plan upcoming activities that align with specific Moon phases, such as outdoor events, photography sessions, or astronomical observations.
 - To revisit the website's settings to fine-tune their preferences, such as adjusting time zones or choosing favorite locations.
 - To share their own observations, photos, or experiences related to Moon phases within the website's community.
@@ -148,17 +148,17 @@ The second page, Moon Cycle Explained, consists of one section divided into thre
 
 ![Moon Cycle Explained](docs/comment_features.webp)
 
-The third page, Frequently Asked Questions, answers a few simple questions about the Moon Phases and the Moon Cycle in general. Like the previous page, this one also consists of just one section divided into three columns. On smaller devices, they are stacked one below the other. They are all placed on a slightly darker background than the main background picture to make to text fully visible and easy to read.
+The third page, Frequently Asked Questions, answers a few simple questions about the Moon Phases and the Moon Cycle in general. Like the previous page, this one also consists of just one section divided into three columns. On smaller devices, they are stacked one below the other. They are all placed on a slightly darker background than the main background picture to make the text fully visible and easy to read.
 
 ![FAQ](docs/faq_features.webp)
 
-The fourth and the last page, the Gallery, consists of the main heading, a short introduction and eight images illustrating eight Moon Phases - displayed in the form of an image carousel, which was created from scratch using JavaScript.
+The fourth and last page, the Gallery, consists of the main heading, a short introduction and eight images illustrating eight Moon Phases - displayed in the form of an image carousel, which was created from scratch using JavaScript.
 
 ![Gallery](docs/gallery_features.webp)
 
 #### Future Implementations
 
-- Moonrise and moonset parameters available on the website - depending on the users's location and their time zone (to meet the third returning/frequent user goal).
+- Moonrise and moonset parameters available on the website - depending on the user's location and their time zone (to meet the third returning/frequent user goal).
 - Community Section - letting users interact with one another, discuss their ideas and share their resources (to meet the fourth returning/frequent user goal).
 - Linking the website to another API providing data about near-Earth objects like asteroids, meteors, and comets (to meet the fifth returning/frequent user goal).
 - Contact Us Section - to let users provide their feedback to the app developers based on their experiences, which may help with future updates and improvements (to meet the seventh returning/frequent user goal).
@@ -175,7 +175,7 @@ The fourth and the last page, the Gallery, consists of the main heading, a short
 
 - [Am I responsive?](https://ui.dev/amiresponsive) - used to check the site's responsiveness and to create mockups.
 - [Balsamiq](https://balsamiq.com/wireframes/) - used to create wireframes.
-- [Bootstrap v5.3](https://getbootstrap.com/) - used to assist with responsiveness by utilizing its layout elements and responsive navigation.
+- [Bootstrap v5.3](https://getbootstrap.com/) - used to assist with responsiveness by utilizing its components and layout elements.
 - [Coolors](https://coolors.co/) - used to create the colour palette.
 - [Font Awesome](https://fontawesome.com/) - used to provide icons across the website.
 - [Fontpair](https://www.fontpair.co/all) - used for font pairing.
@@ -231,17 +231,38 @@ Making a clone is basically making a copy of the selected repository.
 
 - Code for the outline effect used on multiple occasions across the CSS stylesheet was taken from [Stack Overflow](https://stackoverflow.com/questions/4919076/outline-effect-to-text) and was slightly edited to fit the project's needs.
 
-Screenshot of the post:
-![Outline Effect](docs/outline_effect_credit.png)
+- Code for a sticky footer, that always stays on the bottom of the page regardless of how little content is on the page, was taken from [Materialize](https://materializecss.com/footer.html)'s website.
 
-- [Bootstrap v5.3](https://getbootstrap.com/) - Bootstrap's 'container-fluid' was used throughout the project to make the site responsive.
+- Code for Get Date methods, letting me customise the date output, was taken from [W3Schools](https://www.w3schools.com/js/js_date_methods.asp).
+
+- Code for calling external API was taken from [Moon Phase API](https://rapidapi.com/MoonAPIcom/api/moon-phase/)'s documentation.
+
+- Code for converting markdown response into HTML output was taken from documentation of [Marked Library](https://marked.js.org/).
+
+- Code for image carousel from gallery.js file was created following [Log Rocket Fronend Analytics](https://blog.logrocket.com/build-image-carousel-from-scratch-vanilla-javascript/)'s tutorial on how to build an image carousel from scratch using vanilla JavaScript.
+
+- [Bootstrap v5.3](https://getbootstrap.com/) - Bootstrap's `container-fluid` was used throughout the project to make the site responsive. Bootstrap's `navbar` was used for the responsive navigation header.
 
 ### Content
 
+- [NASA Science Space Place](https://spaceplace.nasa.gov/moon-phases/en/) - the information contained on the Moon Cycle Explained page.
+- [Moon Connection Website](https://www.moonconnection.com/moon_phases.phtml) - the information contained on the Moon Cycle Explained page.
+- [Space.com](https://www.space.com/18880-moon-phases.html) - the information contained on the Moon Cycle Explained page.
+- [Astronomical Applications Department of the U.S. Naval Observatory](https://aa.usno.navy.mil/data/MoonPhases) - the information contained on the Moon Cycle Explained page.
+- [NASA Science Earth's Moon](https://moon.nasa.gov/inside-and-out/top-moon-questions/) - the information contained on the FAQ page.
+- [Love the Night Sky](https://lovethenightsky.com/moon-facts/) - the information contained on the FAQ page.
+
 ### Media
+
+| Image | Source |
+| --- | --- |
+| ![Background picture](assets/images/des_recits_unsplash.webp) | Photo by [Des Récits](https://unsplash.com/@desrecits) on [Unsplash](https://unsplash.com/) |
+| ![New Moon](assets/images/new_moon.webp) ![Waxing Crescent](assets/images/waxing_crescent.webp) ![First Quarter](assets/images/first_quarter.webp) ![Waxing Gibbous](assets/images/waxing_gibbous.webp) ![Full Moon](assets/images/full_moon.webp) ![Waning Gibbous](assets/images/waning_gibbous.webp) ![Last Quarter](assets/images/third_quarter.webp) ![Waning Crescent](assets/images/waning_crescent.webp) | Photos by [Maxwell Fury](https://pixabay.com/users/maxwellfury-4913791/) on [Pexels](https://www.pexels.com/). |
+| ![Moon Cycle](assets/images/moon_phases.webp) | [NASA's Solar System Exploration Website](https://solarsystem.nasa.gov/resources/676/phases-of-the-moon/), credit: Bill Dunford |
+| ![Moon Phase Perspectives](assets/images/moon-phase-perspectives.webp) | [NASA's Earth's Moon Website](https://moon.nasa.gov/inside-and-out/top-moon-questions/), credit: NASA’s Scientific Visualization Studio |
 
 ### Acknowledgements
 
-- [Iuliia Konovalova](https://github.com/IuliiaKonovalova) (my Code Institute mentor) - for sharing her impressive knowledge, for guidance, constructive feedback and understanding
+- [Iuliia Konovalova](https://github.com/IuliiaKonovalova) (my Code Institute mentor) - for sharing her impressive knowledge, for her guidance, constructive feedback and for invaluable help with debugging my JavaScript code.
 - [Callum Jones](https://www.linkedin.com/in/callum-jones-9b80941b8/) (Newcastle College cohort facilitator) - for his helpful advice and continuous encouragement throughout the creation of my website.
 - [Code Institute Slack Community](https://code-institute-room.slack.com) - for the moral support; it kept me going during periods of self doubt and imposter syndrome.
