@@ -69,8 +69,23 @@ I have tested my deployed project on multiple browsers to check for compatibilit
 
 I have tested my deployed project on multiple devices to check for responsiveness issues. It responds well to different screen sizes ensuring that users can access and navigate the content effortlessly, regardless of their chosen device. No design or functionality issues were found.
 
-| Device | Screenshot | Notes |
-| --- | --- | --- |
-| Mobile (DevTools) | ![screenshot](docs/mobile.webp) | Works as expected |
-| Tablet (DevTools) | ![screenshot](docs/tablet.webp) | Works as expected |
-| Desktop | ![screenshot](docs/firefox.webp) | Works as expected |
+| Device | Screenshot 1 | Screenshot 2 | Screenshot 3 | Screenshot 4 | Notes |
+| --- | --- | --- | --- | --- | --- |
+| Mobile (DevTools) | ![screenshot1](docs/home_mobile.webp) | ![screenshot2](docs/comment_mobile.webp) | ![screenshot3](docs/faq_mobile.webp) | ![screenshot4](docs/gallery_mobile.webp) | Works as expected |
+| Tablet (DevTools) | ![screenshot1](docs/tablet.webp) | ![screenshot2](docs/comment_tablet.webp) | ![screenshot3](docs/faq_tablet.webp) | ![screenshot4](docs/gallery_tablet.webp) | Works as expected |
+| Desktop | ![screenshot1](docs/home_desktop.webp) | ![screenshot2](docs/comment_desktop.webp) | ![screenshot3](docs/faq_desktop.webp) | ![screenshot4](docs/gallery_desktop.webp) | Works as expected |
+
+## Lighthouse Audit
+
+I have tested my deployed project using the Lighthouse Audit tool to check for any major issues. 
+
+| Page | Size | Screenshot | Notes |
+| --- | --- | --- | --- |
+| Current Moon Phase | Mobile | ![screenshot](docs/lighthouse_home_mobile.webp) | Few warnings |
+| Current Moon Phase | Desktop | ![screenshot](docs/lighthouse_home_desktop.webp) | Few warnings |
+| Moon Cycle Explained | Mobile | ![screenshot](docs/lighthouse_comment_mobile.webp) | Few warnings |
+| Moon Cycle Explained | Desktop | ![screenshot](docs/lighthouse_comment_desktop.webp) | Some minor warnings |
+| FAQ | Mobile | ![screenshot](docs/lighthouse_faq_mobile.webp) | Some minor warnings |
+| FAQ | Desktop | ![screenshot](docs/lighthouse_faq_desktop.webp) | Some minor warnings |
+| Gallery | Mobile | ![screenshot](docs/lighthouse_gallery_mobile.webp) | Few warnings |
+| Gallery | Desktop | ![screenshot](docs/lighthouse_gallery_desktop.webp) | Some minor warnings |
