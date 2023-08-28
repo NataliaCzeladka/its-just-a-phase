@@ -22,7 +22,7 @@
     - [Wireframes](#wireframes)
     - [Features](#features)
       - [Existing Features](#exisiting-features)
-      - [Future Features](#future-features)
+      - [Future Implementations](#future-implementations)
   - [Technologies Used](#technologies-used)
     - [Languages Used](#languages-used)
     - [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
@@ -155,6 +155,13 @@ The third page, Frequently Asked Questions, answers a few simple questions about
 The fourth and the last page, the Gallery, consists of the main heading, a short introduction and eight images illustrating eight Moon Phases - displayed in the form of an image carousel, which was created from scratch using JavaScript.
 
 ![Gallery](docs/gallery_features.webp)
+
+#### Future Implementations
+
+- Moonrise and moonset parameters available on the website - depending on the users's location and their time zone (to meet the third returning/frequent user goal).
+- Community Section - letting users interact with one another, discuss their ideas and share their resources (to meet the fourth returning/frequent user goal).
+- Linking the website to another API providing data about near-Earth objects like asteroids, meteors, and comets (to meet the fifth returning/frequent user goal).
+- Contact Us Section - to let users provide their feedback to the app developers based on their experiences, which may help with future updates and improvements (to meet the seventh returning/frequent user goal).
 
 ## Technologies Used
 
