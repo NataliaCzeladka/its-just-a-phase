@@ -162,6 +162,9 @@ The fourth and last page, the Gallery, consists of the main heading, a short int
 - Community Section - letting users interact with one another, discuss their ideas and share their resources (to meet the fourth returning/frequent user goal).
 - Linking the website to another API providing data about near-Earth objects like asteroids, meteors, and comets (to meet the fifth returning/frequent user goal).
 - Contact Us Section - to let users provide their feedback to the app developers based on their experiences, which may help with future updates and improvements (to meet the seventh returning/frequent user goal).
+- Introducing a simple matching game to test users' knowledge.
+
+![Game](docs/game.webp)
 
 ## Technologies Used
 
@@ -237,7 +240,7 @@ Making a clone is basically making a copy of the selected repository.
 
 - Code for calling external API was taken from [Moon Phase API](https://rapidapi.com/MoonAPIcom/api/moon-phase/)'s documentation.
 
-- Code for converting markdown response into HTML output was taken from documentation of [Marked Library](https://marked.js.org/).
+- Code for converting markdown response into HTML output was taken from documentation for [Marked Library](https://marked.js.org/).
 
 - Code for image carousel from gallery.js file was created following [Log Rocket Fronend Analytics](https://blog.logrocket.com/build-image-carousel-from-scratch-vanilla-javascript/)'s tutorial on how to build an image carousel from scratch using vanilla JavaScript.
 
