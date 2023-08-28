@@ -89,3 +89,37 @@ I have tested my deployed project using the Lighthouse Audit tool to check for a
 | FAQ | Desktop | ![screenshot](docs/lighthouse_faq_desktop.webp) | Some minor warnings |
 | Gallery | Mobile | ![screenshot](docs/lighthouse_gallery_mobile.webp) | Few warnings |
 | Gallery | Desktop | ![screenshot](docs/lighthouse_gallery_desktop.webp) | Some minor warnings |
+
+## User Stories Testing
+
+### Client Goals
+
+| User Stories | Completed? |
+| --- | --- |
+| As a client, I would like to provide users with accurate and up-to-date information about the current phase of the Moon. This could include displaying the Moon's appearance, percentage of illumination, distance to the Moon from Earth, and other relevant details. | ✔️ |
+| As a client, I would like to educate users about the different phases of the Moon and the science behind them. It could provide explanations, diagrams, and relevant images to help users understand the lunar cycle. | ✔️ |
+| As a client, I would like to provide a visual calendar that displays the Moon phases for a specific period (e.g., a year) that can help users track the Moon's changing appearance over time. | ✔️ |
+| As a client, I would like to deliver all of the above in the form of a visually appealing, intuitive, responsive across different devices and easy to navigate website. | ✔️ |
+
+### First Time User Goals
+
+| User Stories | Completed? |
+| --- | --- |
+| As a first time user, I should be able to quickly and easily see the current phase of the Moon, whether it's a Full Moon, New Moon, Waxing Crescent, Waning Gibbous, etc. | ✔️ |
+| As a first time user, I should be able to access more than just the current Moon Phase. I should be able to see additional information such as Moon illumination percentage, number of days through the cycle, number of days till the next Full Moon, etc. | ✔️ |
+| As a first time user, I should be able to explore a calendar view that shows the Moon's phases for a specific period, helping me understand how the Moon's appearance changes over time. | ✔️ |
+| As a first time user, I should be able to learn about the different phases of the Moon, their significance and why the Moon's appearance changes over time. | ✔️ |
+| As a first time user, I should be able to navigate throughout the page in an easy, effortless and intuitive way. | ✔️ |
+| As a first time user, I should be able to have a positive and enjoyable experience while browsing the website. | ✔️ |
+
+### Returning/Frequent User Goals
+
+| User Stories | Completed? |
+| --- | --- |
+| As a returning/frequent user, I should be able to continue tracking the Moon's changing phases to deepen my understanding of the Lunar Cycle. | ✔️ |
+| As a returning/frequent user, I should be able to plan upcoming activities that align with specific Moon phases, such as outdoor events, photography sessions, or astronomical observations. | ✔️ |
+| As a returning/frequent user, I should be able to revisit the website's settings to fine-tune my preferences, such as adjusting my time zone or choosing my favorite locations. | Take a look at the Future Implementations section in [README.md](README.md) file. |
+| As a returning/frequent user, I should be able to share my own observations, photos, or experiences related to Moon phases within the website's community. | Take a look at the Future Implementations section in [README.md](README.md) file. |
+| As a returning/frequent user, I should be able to stay informed about upcoming celestial events beyond Moon phases, such as meteor showers, planetary alignments, asteroids and comets. | Take a look at the Future Implementations section in [README.md](README.md) file. |
+| As a returning/frequent user, I should be able to access the provider's social media accounts. | ✔️ |
+| As a returning/frequent user, I should be able to offer feedback to the app developers based on my experiences, helping to shape future updates and improvements. | Take a look at the Future Implementations section in [README.md](README.md) file. |
