@@ -240,9 +240,8 @@ const fetchMoonDataTable = async () => {
           tableRow[i].cells[31].innerHTML = "-";
         }
 
-        // Delete cells 29, 30, 31 from the 2nd row (February)
+        // Delete cells 30, 31 from the 2nd row (February)
         if (i === 2) {
-          tableRow[i].cells[29].innerHTML = "-";
           tableRow[i].cells[30].innerHTML = "-";
           tableRow[i].cells[31].innerHTML = "-";
         }
