@@ -96,7 +96,7 @@ const fetchMoonPhaseData = async () => {
     displayMoonDistance(data.moon.moon_distance);
     displayMoonAge(data.moon.age_days);
     displayCyclePercentage(data.moon.lunar_cycle);
-    displayZodiacSign(data.moon.zodiac_sign);
+    displayZodiacSign(data.moon.zodiac.sun_sign);
     displayNextFullMoon(data.moon_phases.full_moon.next.days_ahead);
   } catch (error) {
     console.error("Error fetching data:", error);
