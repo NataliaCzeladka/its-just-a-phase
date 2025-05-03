@@ -113,7 +113,14 @@ const fetchMoonPhaseData = async () => {
 // Display current Moon Phase
 let displayMoonData = (moon_phase) => {
   const phaseTextElement = document.getElementById("data");
-  phaseTextElement.innerText = moon_phase;
+
+  // Capitalize the first letter of each word in the moon phase
+  const capitalizedPhase = moon_phase
+    .split(' ')  // Split the phrase into words
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()) // Capitalize each word
+    .join(' ');  // Rejoin the words into a single string
+
+  phaseTextElement.innerText = capitalizedPhase; // Display the capitalized phase
 
   // Matching the current Moon Phase with relevant picture and description
   let newPhase = moon_phase.toLowerCase(); // normalize to lowercase
